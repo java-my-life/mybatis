@@ -65,5 +65,26 @@
 				<artifactId>spring-jdbc</artifactId>
 				<version>${springframework.version}</version>
 			</dependency>
+		<dependency>
+		    <groupId>javax.persistence</groupId>
+		    <artifactId>persistence-api</artifactId>
+		    <version>1.0</version>
+		</dependency>
+			<dependency>
+			    <groupId>tk.mybatis</groupId>
+			    <artifactId>mapper</artifactId>
+			    <version>3.3.9</version>
+			</dependency>
+		<dependency>
+		    <groupId>com.github.pagehelper</groupId>
+		    <artifactId>pagehelper</artifactId>
+		    <version>5.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.jsqlparser/jsqlparser -->
+		<dependency>
+		    <groupId>com.github.jsqlparser</groupId>
+		    <artifactId>jsqlparser</artifactId>
+		    <version>0.9.5</version>
+		</dependency>
 	</dependencies>
 </project>

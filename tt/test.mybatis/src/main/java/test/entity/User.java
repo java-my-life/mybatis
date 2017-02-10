@@ -1,5 +1,8 @@
 package test.entity;
 
+import javax.persistence.Table;
+
+@Table(name="user")
 public class User {
     private String username;
 
